@@ -29,8 +29,32 @@ hs_err_pid*
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff
+<<<<<<< HEAD
 .idea/**
 
+=======
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Generated files
+.idea/**/contentModel.xml
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+>>>>>>> 58ba9d53e639032b8555dfc99188f1c59409725c
 
 # Gradle and Maven with auto-import
 # When using Gradle or Maven with auto-import, you should exclude module files,
@@ -38,8 +62,14 @@ hs_err_pid*
 # auto-import.
 # .idea/modules.xml
 # .idea/*.iml
+<<<<<<< HEAD
  *.iml
 *.ipr
+=======
+# .idea/modules
+# *.iml
+# *.ipr
+>>>>>>> 58ba9d53e639032b8555dfc99188f1c59409725c
 
 # CMake
 cmake-build-*/
@@ -76,9 +106,25 @@ fabric.properties
 
 .gitignore
 .idea/
+<<<<<<< HEAD
 aop-learn/.gitignore
 aop-learn/.mvn/
 aop-learn/mvnw
 aop-learn/mvnw.cmd
 aop-learn/pom.xml
 aop-learn/src/main/
+=======
+interview-web/eureka-server/.gitignore
+interview-web/eureka-server/.mvn/
+interview-web/eureka-server/mvnw
+interview-web/eureka-server/mvnw.cmd
+interview-web/eureka-server/pom.xml
+interview-web/eureka-server/src/
+interview-web/interview-web/.gitignore
+interview-web/interview-web/.mvn/
+interview-web/interview-web/mvnw
+interview-web/interview-web/mvnw.cmd
+interview-web/interview-web/pom.xml
+interview-web/interview-web/src/
+wechat-learn/
+>>>>>>> 58ba9d53e639032b8555dfc99188f1c59409725c
